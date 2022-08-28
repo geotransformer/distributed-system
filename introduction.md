@@ -3,6 +3,8 @@
 - A collection of computing units that interact by exchanging messages via an interconnection network and appear to external users as a single coherent computing facility
 - “A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable”, Leslie Lamport
 - The system gives correct answers always regardless of failures or delay of a node or the network
+## Why build a distributed system?
+- Distributed systems provide scalability and improved performance in ways that monolithic systems can’t.
 ## Desirable properties of distributed system
 - Consistent (C)
 - Highly available (A)
