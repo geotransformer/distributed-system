@@ -18,8 +18,8 @@
 - 𝒆𝟏 ⟶ 𝒆𝟐  ⇒  𝑪(𝒆𝟏) < 𝑪(𝒆𝟐) (Logical Clock consistency)
 - 𝒆𝟏 ⟶ 𝒆𝟐 ⟺ 𝑪(𝒆𝟏) < 𝑪(𝒆𝟐) (Strong clock consistency)
 ## Types of Logical Clock
-- Scalar (Lamport’s) clocks
-- Vector clocks
-- Matrix clocks
+- Scalar (Lamport’s) clocks: Time/clock is represented as a scalar.
+- Vector clocks: Time/clock is represented as a vector.
+- Matrix clocks: Time/clock is represented as a matrix.
 ## References
 - Raynal and M. Singhal. Logical Time: A Way to Capture Causality in Distributed Systems
