@@ -18,9 +18,9 @@
 -  CP: If a network partition occurs (P), to guarantee consistency (C) may need to return errors/timeouts (lose A)
 -  AP: If a network partition occurs (P), the system can continue providing responses (A), but some may return stale values (lose C)
 ## Partition is rare
-Slow response == No response
-Low latency == No availability
-Availability vs. Consistency == Latency vs. Consistency 
+- Slow response == No response
+- Low latency == No availability
+- Availability vs. Consistency == Latency vs. Consistency 
 
 ## PACELC: 
 - If there is a partition (P), how does the system trade off availability and consistency (A and C); else (E), when the system is running normally in the absence of partitions, how does the system trade off latency (L) and consistency (C)? 
